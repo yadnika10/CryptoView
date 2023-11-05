@@ -1,0 +1,226 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Federant', serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: white;
+}
+.logo img{
+    width: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.searchArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 10px;
+}
+.searchArea input{
+    width: 350px;
+    height: 30px;
+    border: 2px solid #FFBF00;
+    /* outline: none; */
+    
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    margin: 1rem 5rem;
+    flex-wrap: wrap;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.cards .left img{
+    width: 50px;
+}
+.inner a{
+    cursor: pointer;
+    background-color: #FFBF00;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.inner a:hover{
+    border:2px solid #FFBF00;
+    background-color: white;
+    color: black;
+}
+.Search a{
+    cursor: pointer;
+    background-color: #FFBF00;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.Search a:hover{
+    border:2px solid #FFBF00;
+    background-color: white;
+    color: black;
+}
+button{
+    cursor: pointer;
+    background-color: #FFBF00;
+    border: none;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Federant', serif;
+}
+button:hover{
+    border:2px solid #FFBF00;
+    background-color: white;
+    color: black;
+}
+.inner button{
+    cursor: pointer;
+}
+/* Index page */
+.Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.Home img{
+    width: 200px;
+}
+.Home .text{
+    width: 60%;
+    padding-left: 100px;
+}
+.Home .image{
+    width: 25%;
+}
+/*  */
+#details{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    gap: 2rem;
+    margin: 20px 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.Image{
+    width: 30%;
+}
+.text{
+    width: 50%;
+    text-align: justify;
+}
+#details img{
+    width: 200px;
+    padding-left: 50px;
+}
+.currencies{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 20px;
+}
+
+/* -----Slide---- */
+.Band{
+    overflow: hidden;
+}
+#flex-slide-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    animation: slide 20s linear infinite alternate;
+    position: relative;
+    
+}
+.flex-slide{
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    min-width: 25rem;
+    gap: 1rem;
+    padding: 0 2rem;
+    border: 2px solid gold;
+    cursor: pointer;
+}
+.flex-slide img{
+    border-radius: 50%;
+}
+@keyframes slide {
+    0% {
+      right: 0px;
+    }
+  
+    100% {
+      right: 100%;
+    }
+}
+.container-chart{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px;
+}
+.graph a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin: 3rem 40rem;
+    border: 2px solid #FFBF00;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #FFBF00;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.graph a:hover{
+    border:2px solid #FFBF00;
+    background-color: white;
+    color: black;
+}
+hr{
+    border: 3px solid #FFBF00;
+}
+i{
+    color: #FFBF00;
+}
